@@ -5,6 +5,9 @@
   --blue-color: #14b9d5;
   --violet-color: #c755da;
   --yellow-color: #ffd205;
+  --white-color: #ffffff;
+
+  --text-color: #727475;
 }
 
 * {
@@ -17,4 +20,40 @@ html {
   font-size: 62.5%;
   line-height: 1.6rem;
   font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+/* =============== Button =============== */
+.bnt {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white-color);
+  display: inline-block;
+  padding: 9px 20px;
+  border-radius: 63px;
+}
+
+.bnt.bnt--big {
+  padding: 15px 35px;
+}
+
+.bnt.bnt--primary {
+  background-color: var(--primary-color);
+}
+.bnt.bnt--green {
+  background-color: var(--green-color);
+}
+.bnt.bnt--red {
+  background-color: var(--red-color);
+}
+.bnt.bnt--blue {
+  background-color: var(--blue-color);
+}
+.bnt.bnt--violet {
+  background-color: var(--violet-color);
+}
+.bnt.bnt--yellow {
+  background-color: var(--yellow-color);
 }

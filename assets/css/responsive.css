@@ -1,14 +1,20 @@
 /* Tablet and Mobile */
 @media (max-width: 1023px) {
-
+  .hide-on-tablet-mobile {
+    display: none;
+  }
 }
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-
+  .hide-on-tablet {
+    display: none;
+  }
 }
 
 /* Mobile */
 @media (max-width: 767px) {
-  
+  .hide-on-mobile {
+    display: none;
+  }
 }

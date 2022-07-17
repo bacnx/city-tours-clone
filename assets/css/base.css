@@ -64,3 +64,9 @@ a {
 .bnt.bnt--yellow {
   background-color: var(--yellow-color);
 }
+
+
+/* =============== Highlight =============== */
+.primary-highlight {
+  color: var(--primary-color);
+}

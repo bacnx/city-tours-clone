@@ -3,6 +3,10 @@
   .hide-on-tablet-mobile {
     display: none;
   }
+
+  .slider__heading {
+    display: none;
+  }
 }
 
 /* Tablet */
@@ -15,6 +19,28 @@
 /* Mobile */
 @media (max-width: 767px) {
   .hide-on-mobile {
+    display: none;
+  }
+
+  .header {
+    padding: 0 24px;
+  }
+  .header-mobile-menu__list {
+    width: 100%;
+  }
+
+  .slider {
+    height: 400px;
+  }
+  .slider__content {
+    top: unset;
+    bottom: 32px;
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .slider__list,
+  .slider__bnt-price {
     display: none;
   }
 }

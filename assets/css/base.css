@@ -8,6 +8,7 @@
   --white-color: #ffffff;
 
   --text-color: #727475;
+  --text-blur-color: #9a9a9a;
 }
 
 * {
@@ -69,4 +70,46 @@ a {
 /* =============== Highlight =============== */
 .primary-highlight {
   color: var(--primary-color);
+}
+
+/* =============== Heading =============== */
+.heading > .heading__sub-heading {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.heading.black > .heading__sub-heading {
+  color: var(--text-blur-color);
+}
+.heading.white > .heading__sub-heading {
+  color: var(--white-color);
+}
+
+.heading > .heading__main {
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+.heading.black > .heading__main {
+  color: #555;
+}
+.heading.white > .heading__main {
+  color: var(--white-color);
+}
+
+/* =============== Underline =============== */
+.underline {
+  position: relative;
+}
+.underline::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: 11px;
+  left: 0;
+  right: 0;
+  height: 5px;
+}
+.underline.primary::before {
+  background-color: var(--primary-color);
 }

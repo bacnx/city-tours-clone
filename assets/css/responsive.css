@@ -7,12 +7,26 @@
   .slider__heading {
     display: none;
   }
+
+  .experience__media-img {
+    position: unset;
+    margin-bottom: 32px;
+  }
 }
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
   .hide-on-tablet {
     display: none;
+  }
+
+  .experience__content {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .experience__media-img {
+    height: 420px;
   }
 }
 
@@ -42,5 +56,9 @@
   .slider__list,
   .slider__bnt-price {
     display: none;
+  }
+  
+  .experience__media-img {
+    height: 220px;
   }
 }

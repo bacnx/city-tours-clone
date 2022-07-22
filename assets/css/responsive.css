@@ -61,4 +61,8 @@
   .experience__media-img {
     height: 220px;
   }
+
+  .services__item {
+    padding: 0 12px;
+  }
 }

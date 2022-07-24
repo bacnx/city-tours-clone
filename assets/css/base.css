@@ -8,6 +8,7 @@
   --white-color: #ffffff;
 
   --text-color: #727475;
+  --heading-text-color: #555555;
   --text-blur-color: #9a9a9a;
 }
 
@@ -19,7 +20,7 @@
 
 html {
   font-size: 62.5%;
-  line-height: 1.6rem;
+  /* line-height: 1.6rem; */
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
 }
@@ -39,13 +40,13 @@ a {
   text-decoration: none;
   color: var(--white-color);
   display: inline-block;
-  padding: 9px 20px;
+  padding: 8px 20px;
   border-radius: 63px;
   cursor: pointer;
 }
 
 .bnt.big {
-  padding: 15px 35px;
+  padding: 12px 35px;
 }
 
 .bnt.primary {
@@ -84,10 +85,14 @@ a {
 .heading.white > .heading__sub-heading {
   color: var(--white-color);
 }
+.heading.center {
+  text-align: center;
+}
 
 .heading > .heading__main {
   font-size: 3.6rem;
   line-height: 3.6rem;
+  font-weight: 700;
   margin-top: 20px;
   margin-bottom: 32px;
 }

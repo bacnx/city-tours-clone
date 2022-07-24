@@ -12,6 +12,11 @@
     position: unset;
     margin-bottom: 32px;
   }
+  
+  .sale-heading,
+  .sale-product {
+    height: auto;
+  }
 }
 
 /* Tablet */
@@ -64,5 +69,9 @@
 
   .services__item {
     padding: 0 12px;
+  }
+  
+  .sale {
+    padding-top: 0;
   }
 }

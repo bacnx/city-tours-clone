@@ -708,6 +708,81 @@
   background-color: var(--white-color);
   color: var(--blue-color);
 }
-
-
 /* ================== ARTICLE - end ================== */
+
+
+
+/* ==================================================== */
+/* ================== FOOTER - begin ================== */
+.footer {
+  background-image: url('/assets/img/home-video-img.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+}
+
+.footer__container {
+  background-color: var(--white-color);
+}
+
+.footer__section,
+.footer__about-section {
+  padding: 32px;
+}
+
+.footer__logo {
+  height: 32px;
+}
+
+.footer__desc {
+  margin: 24px 0;
+  font-size: 1.4rem;
+  line-height: 2;
+  color: var(--text-blur-color);
+}
+
+.footer__social-item {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.footer__social-icon {
+  font-size: 2.4rem;
+  color: var(--heading-text-color);
+  cursor: pointer;
+}
+
+.footer__heading {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--heading-text-color);
+  margin-bottom: 32px;
+}
+
+.footer__item {
+  line-height: 2;
+  font-size: 1.4rem;
+  color: var(--text-blur-color);
+}
+
+.footer__item i {
+  margin-right: 4px;
+  color: #c5c5c5;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+}
+
+.footer__copyright-item {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding: 16px;
+  color: var(--white-color);
+}
+
+/* ================== FOOTER - end ================== */

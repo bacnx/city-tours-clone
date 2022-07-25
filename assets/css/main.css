@@ -90,7 +90,7 @@
 }
 
 .header-submenu__item:hover > .header-submenu__link {
-  background-color: #f5f5f5;
+  background-color: #f1f1f1;
 }
 
 .header-submenu__icon {
@@ -578,7 +578,7 @@
 
 .sale-product__mid-section {
   border-style: solid;
-  border-color: #f5f5f5;
+  border-color: #f1f1f1;
   border-width: 1px 0;
   padding: 12px 0;
   display: flex;
@@ -623,6 +623,91 @@
   line-height: 2;
   margin: 12px 0;
 }
-
-
 /* ================== SALE - end ================== */
+
+
+/* ===================================================== */
+/* ================== ARTICLE - begin ================== */
+.article {
+  padding: 80px 0;
+}
+
+.article-item {
+  display: flex;
+  height: 320px;
+}
+.article-item--reverse {
+  flex-direction: row-reverse;
+}
+
+.article-item__img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article-item__content {
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  padding: 24px;
+}
+.article-item--bg-green .article-item__content {
+  background-color: var(--green-color);
+  border: none;
+}
+.article-item--bg-blue .article-item__content {
+  background-color: var(--blue-color);
+  border: none;
+}
+
+.article-item__sub-heading {
+  font-size: 1.4rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  color: var(--text-blur-color);
+}
+.article-item--bg-green .article-item__sub-heading {
+  color: var(--white-color);
+}
+.article-item--bg-blue .article-item__sub-heading {
+  color: var(--white-color);
+}
+
+.article-item__heading {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: var(--heading-text-color);
+}
+.article-item--bg-green .article-item__heading {
+  color: var(--white-color);
+}
+.article-item--bg-blue .article-item__heading {
+  color: var(--white-color);
+}
+
+.article-item__desc {
+  font-size: 1.4rem;
+  line-height: 2;
+  color: var(--text-blur-color);
+  margin: 24px 0;
+  height: 120px;
+  overflow: hidden;
+}
+.article-item--bg-green .article-item__desc {
+  color: var(--white-color);
+}
+.article-item--bg-blue .article-item__desc {
+  color: var(--white-color);
+}
+
+.article-item--bg-green .article-item__bnt {
+  background-color: var(--white-color);
+  color: var(--green-color);
+}
+.article-item--bg-blue .article-item__bnt {
+  background-color: var(--white-color);
+  color: var(--blue-color);
+}
+
+
+/* ================== ARTICLE - end ================== */

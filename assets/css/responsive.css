@@ -17,6 +17,22 @@
   .sale-product {
     height: auto;
   }
+
+  .article-item {
+    flex-direction: column;
+    height: unset;
+  }
+  .article-item__img {
+    width: 100%;
+    height: 180px;
+  }
+  .article-item__content {
+    width: 100%;
+    height: 260px;
+  }
+  .article-item__desc {
+    height: 60px;
+  }
 }
 
 /* Tablet */

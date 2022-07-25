@@ -119,3 +119,6 @@ a {
 .underline.primary::before {
   background-color: var(--primary-color);
 }
+.underline.green::before {
+  background-color: var(--green-color);
+}
